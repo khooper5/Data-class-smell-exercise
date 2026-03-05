@@ -1,23 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2026-03-03T16:07:53.059">
-<file name="C:\Users\sweehoney\Datasmells\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\Customer.java">
-<violation beginline="3" endline="23" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="uncc.datasmells" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
-The class 'Customer' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2026-03-04T22:46:39.487">
+<file name="C:\Users\kenne\OneDrive\Desktop\itcs_6112\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\Customer.java">
+<violation beginline="5" endline="5" begincolumn="26" endcolumn="27" rule="ShortVariable" ruleset="Code Style" package="uncc.datasmells" class="Customer" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="9" endline="9" begincolumn="28" endcolumn="29" rule="ShortVariable" ruleset="Code Style" package="uncc.datasmells" class="Customer" method="Customer" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="9" endline="9" begincolumn="45" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Customer" method="Customer" variable="email" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'email' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="21" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Customer" method="Customer" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="32" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Customer" method="Customer" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="24" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" package="uncc.datasmells" class="Customer" method="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'Customer(String, String, String)' has a cyclomatic complexity of 10.
 </violation>
 </file>
-<file name="C:\Users\sweehoney\Datasmells\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\Invoice.java">
-<violation beginline="3" endline="48" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="uncc.datasmells" class="Invoice" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
-The class 'Invoice' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=9)
+<file name="C:\Users\kenne\OneDrive\Desktop\itcs_6112\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\Invoice.java">
+<violation beginline="10" endline="10" begincolumn="67" endcolumn="81" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Invoice" method="Invoice" variable="discount" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'discount' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="20" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Invoice" method="Invoice" variable="invoiceId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'invoiceId' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="38" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Invoice" method="Invoice" variable="order" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'order' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="51" endcolumn="64" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Invoice" method="Invoice" variable="taxRate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'taxRate' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="32" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" package="uncc.datasmells" class="Invoice" method="Invoice" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'Invoice(String, Order, double, double)' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="63" endline="63" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Invoice" method="calculateTotal" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'subtotal' could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Invoice" method="calculateTotal" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'taxAmount' could be declared final
 </violation>
 </file>
-<file name="C:\Users\sweehoney\Datasmells\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\Order.java">
-<violation beginline="5" endline="25" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="uncc.datasmells" class="Order" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
-The class 'Order' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+<file name="C:\Users\kenne\OneDrive\Desktop\itcs_6112\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\Main.java">
+<violation beginline="5" endline="27" begincolumn="19" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="uncc.datasmells" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="5" endline="27" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="uncc.datasmells" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Main
+</violation>
+<violation beginline="7" endline="7" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'customer' could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="17" endcolumn="18" rule="ShortVariable" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="p1" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p1
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'p1' could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="17" endcolumn="18" rule="ShortVariable" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="p2" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p2
+</violation>
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'p2' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'order' could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="9" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'invoice' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="49" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'service' could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="9" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'total' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="uncc.datasmells" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
 </violation>
 </file>
-<file name="C:\Users\sweehoney\Datasmells\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\Product.java">
-<violation beginline="3" endline="23" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="uncc.datasmells" class="Product" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
-The class 'Product' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+<file name="C:\Users\kenne\OneDrive\Desktop\itcs_6112\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\Order.java">
+<violation beginline="11" endline="11" begincolumn="34" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Order" method="Order" variable="customer" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'customer' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="18" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Order" method="Order" variable="orderId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'orderId' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="53" endcolumn="74" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Order" method="Order" variable="products" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'products' is not assigned and could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="28" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Order" method="addProduct" variable="product" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'product' is not assigned and could be declared final
+</violation>
+<violation beginline="42" endline="42" begincolumn="31" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Order" method="removeProduct" variable="product" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'product' is not assigned and could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="10" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Order" method="calculateSubtotal" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'product' could be declared final
 </violation>
 </file>
+<file name="C:\Users\kenne\OneDrive\Desktop\itcs_6112\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\OrderService.java">
+<violation beginline="3" endline="32" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="uncc.datasmells" class="OrderService" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="5" begincolumn="34" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="OrderService" method="calculateTotal" variable="order" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'order' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="9" begincolumn="16" endcolumn="22" rule="LawOfDemeter" ruleset="Design" package="uncc.datasmells" class="OrderService" method="calculateTotal" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="6" endline="9" begincolumn="16" endcolumn="22" rule="LawOfDemeter" ruleset="Design" package="uncc.datasmells" class="OrderService" method="calculateTotal" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="6" endline="9" begincolumn="16" endcolumn="22" rule="LawOfDemeter" ruleset="Design" package="uncc.datasmells" class="OrderService" method="calculateTotal" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="12" endline="12" begincolumn="40" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="OrderService" method="calculateFinalAmount" variable="invoice" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'invoice' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="OrderService" method="calculateFinalAmount" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'base' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="OrderService" method="calculateFinalAmount" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'tax' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="35" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="OrderService" method="printOrderSummary" variable="order" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'order' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="uncc.datasmells" class="OrderService" method="printOrderSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="20" endline="20" begincolumn="43" endcolumn="71" rule="LawOfDemeter" ruleset="Design" package="uncc.datasmells" class="OrderService" method="printOrderSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="20" endline="20" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="uncc.datasmells" class="OrderService" method="printOrderSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="22" endline="24" begincolumn="9" endcolumn="51" rule="LawOfDemeter" ruleset="Design" package="uncc.datasmells" class="OrderService" method="printOrderSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="23" endline="23" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" package="uncc.datasmells" class="OrderService" method="printOrderSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="27" endline="27" begincolumn="37" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="OrderService" method="printInvoiceSummary" variable="invoice" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'invoice' is not assigned and could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="uncc.datasmells" class="OrderService" method="printInvoiceSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="29" endline="29" begincolumn="9" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="OrderService" method="printInvoiceSummary" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'finalAmount' could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="uncc.datasmells" class="OrderService" method="printInvoiceSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="C:\Users\kenne\OneDrive\Desktop\itcs_6112\Data-class-smell-exercise\demo\src\main\java\uncc\datasmells\Product.java">
+<violation beginline="5" endline="5" begincolumn="26" endcolumn="27" rule="ShortVariable" ruleset="Code Style" package="uncc.datasmells" class="Product" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="9" endline="9" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Code Style" package="uncc.datasmells" class="Product" method="Product" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="9" endline="9" begincolumn="20" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Product" method="Product" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="31" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Product" method="Product" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="44" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="uncc.datasmells" class="Product" method="Product" variable="price" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'price' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\kenne\OneDrive\Desktop\itcs_6112\Data-class-smell-exercise\demo\src\test\java\uncc\datasmells\AppTest.java">
+<violation beginline="10" endline="20" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="uncc.datasmells" class="AppTest" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="18" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="uncc.datasmells" class="AppTest" method="shouldAnswerWithTrue" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="26" rule="UnnecessaryBooleanAssertion" ruleset="Error Prone" package="uncc.datasmells" class="AppTest" method="shouldAnswerWithTrue" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#unnecessarybooleanassertion" priority="3">
+assertTrue(true) or similar statements are unnecessary
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
 </pmd>
